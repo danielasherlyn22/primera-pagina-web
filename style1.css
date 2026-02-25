@@ -1,0 +1,72 @@
+.section-bar {
+    background-color: #BF755A;
+    padding: 10px 40px;
+    margin: 18px 0 8px 0;
+}
+
+.section-bar h2 {
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.cv-header {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-bottom: 40px;
+  padding: 20px;
+}
+
+.cv-header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.header-text p {
+  margin: 6px 0 0 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #777;
+}
+
+/* Universidad (li) */
+.section-content ul li {
+  color: #777;          /* gris */
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+/* Carrera (primer <p> después del li) */
+.section-content ul li + p {
+  color: #000;          /* negro */
+  font-weight: 600;
+  margin: 4px 0;
+}
+
+/* Años (segundo <p>) */
+.section-content ul li + p + p {
+  color: #999;          /* gris más claro */
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.section-content{
+  margin: 0 0 10px 0;    /* reduce el espacio entre secciones */
+  padding: 0 40px;       /* que el texto esté alineado con la barra */
+}
+
+.section-content ul{
+  margin: 8px 0 0 0;     /* quita el “brinco” del ul */
+  padding-left: 18px;    /* ajusta el bullet */
+}
